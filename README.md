@@ -14,4 +14,8 @@ For example:
 
 ## Running
 
-`pipenv run python shotty/shotty.py`
+`pipenv run python shotty/shotty.py <command> <--project=PROJECTNAME>`
+`pipenv run python shotty/shotty.py --help` for more help
+
+*command* is list, start, or stop
+*project* is optional
